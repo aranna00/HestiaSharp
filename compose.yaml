@@ -1,0 +1,7 @@
+﻿services:
+  hestiacsharp:
+    image: hestiacsharp
+    build:
+      context: .
+      dockerfile: HestiaCsharp/Dockerfile
+
