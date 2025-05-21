@@ -1,6 +1,6 @@
 using HestiaSharpBot;
 
-var config = new ConfigurationBuilder().AddEnvironmentVariables().Build();
+new ConfigurationBuilder().AddEnvironmentVariables().Build();
 
 var root = Directory.GetCurrentDirectory();
 var dotenv = Path.Combine(root, ".env");
