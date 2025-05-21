@@ -5,7 +5,7 @@
       - hestia-sharp-network
     build:
       context: .
-      dockerfile: HestiaCsharp/Dockerfile
+      dockerfile: HestiaSharp/Dockerfile
     restart: unless-stopped
 
   hestia-sharp-bot:
