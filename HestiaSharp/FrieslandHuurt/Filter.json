@@ -1,0 +1,79 @@
+﻿{
+  "filters": {
+    "$and": [
+      {
+        "$or": [
+          {
+            "$and": [
+              {
+                "reactionData.aangepasteNettoHuurprijs": {
+                  "$gte": 0
+                }
+              },
+              {
+                "reactionData.aangepasteNettoHuurprijs": {
+                  "$lte": "900.07"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "$and": [
+                  {
+                    "totaleHuurVan": {
+                      "$gte": 0
+                    }
+                  },
+                  {
+                    "totaleHuurVan": {
+                      "$lte": "900.07"
+                    }
+                  }
+                ]
+              },
+              {
+                "$and": [
+                  {
+                    "totaleHuurTot": {
+                      "$gte": 0
+                    }
+                  },
+                  {
+                    "totaleHuurTot": {
+                      "$lte": "900.07"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$or": [
+          {
+            "publicationDate": {
+              "$gte": "2025-05-17T11:37:00.000Z"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "hidden-filters": {
+    "$and": [
+      {
+        "dwellingType.categorie": {
+          "$eq": "woning"
+        }
+      },
+      {
+        "rentBuy": {
+          "$eq": "Huur"
+        }
+      }
+    ]
+  }
+}
