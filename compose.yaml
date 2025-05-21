@@ -8,6 +8,26 @@
       dockerfile: HestiaCsharp/Dockerfile
     restart: unless-stopped
 
+  hestia-sharp-bot:
+    image: hestia-sharp-bot
+    build:
+      context: .
+      dockerfile: HestiaSharpBot/Dockerfile
+    networks:
+      - hestia-sharp-network
+    restart: unless-stopped
+
+  hestia-sharp-database:
+    container_name: hestia-database
+    image: postgres:latest
+    networks:
+      - hestia-sharp-network
+    ports:
+      - 5432
+    restart: unless-stopped
+    volumes:
+      - hestia-database-volume-dev:/var/lib/postgresql/data
+
 networks:
   hestia-sharp-network:
     name: hestia-sharp-network
