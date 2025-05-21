@@ -5,17 +5,17 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["HestiaCsharp/HestiaCsharp.csproj", "HestiaCsharp/"]
+COPY ["HestiaSharp/HestiaSharp.csproj", "HestiaSharp/"]
 RUN dotnet restore "HestiaCsharp/HestiaCsharp.csproj"
 COPY . .
 WORKDIR "/src/HestiaCsharp"
-RUN dotnet build "./HestiaCsharp.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./HestiaSharp.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./HestiaCsharp.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./HestiaSharp.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "HestiaCsharp.dll"]
+ENTRYPOINT ["dotnet", "HestiaSharp.dll"]

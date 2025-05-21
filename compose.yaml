@@ -1,7 +1,14 @@
 ﻿services:
-  hestiacsharp:
-    image: hestiacsharp
+  hestia-sharp:
+    image: hestia-sharp
+    networks:
+      - hestia-sharp-network
     build:
       context: .
       dockerfile: HestiaCsharp/Dockerfile
+    restart: unless-stopped
+
+networks:
+  hestia-sharp-network:
+    name: hestia-sharp-network
 

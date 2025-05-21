@@ -1,4 +1,4 @@
-﻿namespace HestiaCsharp
+﻿namespace HestiaSharp
 {
     internal class Program
     {
