@@ -4,18 +4,7 @@
       {
         "$or": [
           {
-            "$and": [
-              {
-                "reactionData.aangepasteNettoHuurprijs": {
-                  "$gte": 0
-                }
-              },
-              {
-                "reactionData.aangepasteNettoHuurprijs": {
-                  "$lte": "900.07"
-                }
-              }
-            ]
+            "$and": []
           },
           {
             "$or": [
@@ -55,7 +44,7 @@
         "$or": [
           {
             "publicationDate": {
-              "$gte": "2025-05-17T11:37:00.000Z"
+              "$gte": "2025-05-26T14:00:00.000Z"
             }
           }
         ]
