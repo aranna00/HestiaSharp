@@ -1,6 +1,7 @@
 ﻿services:
   hestia-sharp:
     image: hestia-sharp
+    env_file: ".env"
     networks:
       - hestia-sharp-network
     build:
@@ -10,6 +11,7 @@
 
   hestia-sharp-bot:
     image: hestia-sharp-bot
+    env_file: ".env"
     build:
       context: .
       dockerfile: HestiaSharpBot/Dockerfile
@@ -18,17 +20,22 @@
     restart: unless-stopped
 
   hestia-sharp-database:
-    container_name: hestia-database
+    container_name: hestia-sharp-database
     image: postgres:latest
+    env_file: ".env"
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD-hestiasharp}
     networks:
       - hestia-sharp-network
     ports:
-      - 5432
+      - "5432:5432"
     restart: unless-stopped
     volumes:
-      - hestia-database-volume-dev:/var/lib/postgresql/data
+      - hestia-sharp-database:/var/lib/postgresql/data
 
 networks:
   hestia-sharp-network:
     name: hestia-sharp-network
 
+volumes:
+  hestia-sharp-database:

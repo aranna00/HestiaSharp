@@ -6,6 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>dotnet-HestiaSharpBot-c5d20844-5e84-4420-be1d-c9a03a7b0cd6</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <IsPackable>true</IsPackable>
+        <NeutralLanguage>en-GB</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,5 +19,12 @@
         <Content Include="..\.dockerignore">
             <Link>.dockerignore</Link>
         </Content>
+        <Content Update="..\.env">
+            <Link>.env</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Filter\"/>
     </ItemGroup>
 </Project>
