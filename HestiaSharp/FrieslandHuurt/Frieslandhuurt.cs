@@ -1,4 +1,6 @@
-﻿namespace HestiaSharp.FrieslandHuurt
+﻿using HestiaSharp.Interfaces;
+
+namespace HestiaSharp.FrieslandHuurt
 {
     public class Frieslandhuurt : IAgency
     {

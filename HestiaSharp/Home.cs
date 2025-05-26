@@ -1,4 +1,6 @@
-﻿namespace HestiaSharp
+﻿using HestiaSharp.Interfaces;
+
+namespace HestiaSharp
 {
     public class Home
     {
@@ -6,7 +8,7 @@
 
         public string Url { get; set; }
 
-        public City City { get; set; }
+        public ICity City { get; set; }
 
         public int Price { get; set; }
 

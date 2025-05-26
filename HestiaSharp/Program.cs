@@ -1,10 +1,17 @@
-﻿namespace HestiaSharp
+﻿using HestiaSharp.Interfaces;
+
+namespace HestiaSharp
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static readonly List<IAgency> _agencies = [];
+
+        private static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            foreach (var agency in _agencies)
+            {
+                await agency.Scraper.Scrape();
+            }
         }
     }
 }
