@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("target_groups")]
-    public class TargetGroup
+    public class TargetGroup : ITargetGroup
     {
         public int Id { get; set; }
 

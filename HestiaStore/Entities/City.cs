@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("cities")]
-    public class City : Location
+    public class City : Location, ICity
     {
-        public Location? Gemeente { get; set; }
+        public ILocation? Gemeente { get; set; }
     }
 }

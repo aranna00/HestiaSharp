@@ -1,12 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("agencies")]
-    public class Agency
+    public class Agency : IAgency
     {
-        private List<Home> _homes = [];
+        private IEnumerable<IHome> _homes = new List<Home>();
 
         public int Id { get; set; }
 
@@ -14,7 +15,7 @@ namespace HestiaStore.Entities
         [MaxLength(255)]
         public required string Name { get; set; }
 
-        public List<Home> Homes
+        public IEnumerable<IHome> Homes
         {
             get => _homes;
 

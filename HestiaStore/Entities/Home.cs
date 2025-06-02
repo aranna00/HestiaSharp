@@ -1,11 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("homes")]
-    public class Home
+    public class Home : IHome
     {
+        [ForeignKey(nameof(Agency))]
+        public int AgencyId { get; set; }
+
         public int Id { get; set; }
 
         [Required]
@@ -24,10 +28,10 @@ namespace HestiaStore.Entities
         public string? HouseNumberAddition { get; set; }
 
         [Required]
-        public required City City { get; set; }
+        public required ICity City { get; set; }
 
         [Required]
-        public required Agency Agency { get; set; }
+        public required IAgency Agency { get; set; }
 
         public bool? SolarPanels { get; set; }
 
@@ -49,13 +53,13 @@ namespace HestiaStore.Entities
 
         public bool HasStorageRoom { get; set; }
 
-        public Location? Municipality { get; set; }
+        public ILocation? Municipality { get; set; }
 
-        public DwellingType? DwellingType { get; set; }
+        public IDwellingType? DwellingType { get; set; }
 
-        public EnergyLabel? EnergyLabel { get; set; }
+        public IEnergyLabel? EnergyLabel { get; set; }
 
-        public List<TargetGroup>? TargetGroups { get; set; }
+        public IEnumerable<ITargetGroup>? TargetGroups { get; set; }
 
         public int? Rooms { get; set; }
     }

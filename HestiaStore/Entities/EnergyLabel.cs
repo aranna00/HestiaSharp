@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("energy_labels")]
-    public class EnergyLabel
+    public class EnergyLabel : IEnergyLabel
     {
         public int Id { get; set; }
 

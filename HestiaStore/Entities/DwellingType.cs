@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using HestiaStore.DTO;
 
 namespace HestiaStore.Entities
 {
     [Table("dwelling_types")]
-    public class DwellingType
+    public class DwellingType : IDwellingType
     {
         public int Id { get; set; }
 
