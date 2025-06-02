@@ -1,9 +1,15 @@
-﻿namespace HestiaSharp.zig365
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace HestiaStore.Entities
 {
+    [Table("target_groups")]
     public class TargetGroup
     {
         public int Id { get; set; }
 
+        [Required]
+        [MaxLength(255)]
         public required string Name { get; set; }
 
         public int? MinAge { get; set; }

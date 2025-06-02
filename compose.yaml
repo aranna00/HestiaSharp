@@ -22,9 +22,10 @@
   hestia-sharp-database:
     container_name: hestia-sharp-database
     image: postgres:latest
-    env_file: ".env"
     environment:
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD-hestiasharp}
+      POSTGRES_PASSWORD: hestiasharp
+      POSTGRES_USER: hestiasharp
+      POSTGRES_DB: hestiasharp
     networks:
       - hestia-sharp-network
     ports:

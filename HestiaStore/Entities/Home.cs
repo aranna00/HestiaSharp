@@ -1,21 +1,32 @@
-﻿using HestiaSharp.zig365;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HestiaStore.Entities
 {
+    [Table("homes")]
     public class Home
     {
         public int Id { get; set; }
 
+        [Required]
+        [MaxLength(8)]
         public required string PostalCode { get; set; }
 
+        [Required]
+        [MaxLength(255)]
         public required string Street { get; set; }
 
+        [Required]
+        [MaxLength(255)]
         public required string HouseNumber { get; set; }
 
+        [MaxLength(5)]
         public string? HouseNumberAddition { get; set; }
 
+        [Required]
         public required City City { get; set; }
 
+        [Required]
         public required Agency Agency { get; set; }
 
         public bool? SolarPanels { get; set; }
