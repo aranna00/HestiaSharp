@@ -1,6 +1,6 @@
 ﻿namespace HestiaSharp.Interfaces
 {
-    public interface IAgency
+    public interface IAgency : HestiaStore.DTO.IAgency
     {
         string Name { get; set; }
 

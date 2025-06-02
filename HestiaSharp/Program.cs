@@ -1,10 +1,14 @@
-﻿using HestiaSharp.Interfaces;
+﻿using HestiaSharp.FrieslandHuurt;
+using HestiaSharp.Interfaces;
 
 namespace HestiaSharp
 {
     internal class Program
     {
-        private static readonly List<IAgency> _agencies = [];
+        private static readonly List<IAgency> _agencies =
+        [
+            new Frieslandhuurt(),
+        ];
 
         private static async Task Main(string[] args)
         {

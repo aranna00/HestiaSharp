@@ -28,7 +28,7 @@
 
         bool NewlyBuild { get; set; }
 
-        int? LivinArea { get; set; }
+        int? LivingArea { get; set; }
 
         bool HasGarden { get; set; }
 

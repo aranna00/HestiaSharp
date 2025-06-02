@@ -6,6 +6,10 @@
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <NeutralLanguage>en-GB</NeutralLanguage>
+        <IsPackable>false</IsPackable>
+        <Title>HestiaSharp</Title>
+        <Authors>Aranna</Authors>
+        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,5 +20,16 @@
 
     <ItemGroup>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\HestiaStore\HestiaStore.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="FrieslandHuurt\Filter.json"/>
+        <Resource Include="FrieslandHuurt\Filter.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
     </ItemGroup>
 </Project>

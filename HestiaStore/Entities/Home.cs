@@ -45,7 +45,7 @@ namespace HestiaStore.Entities
 
         public bool NewlyBuild { get; set; }
 
-        public int? LivinArea { get; set; }
+        public int? LivingArea { get; set; }
 
         public bool HasGarden { get; set; }
 

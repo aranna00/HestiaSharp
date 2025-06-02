@@ -1,0 +1,789 @@
+﻿{
+  "data": [
+    {
+      "ID": 55099,
+      "id": 55099,
+      "extraInformatieUrl": null,
+      "huurtoeslagMogelijk": null,
+      "postalcode": "9108 ND",
+      "street": "Sjoerd Baukesstrjitte",
+      "houseNumber": "6",
+      "houseNumberAddition": "",
+      "gemeenteGeoLocatieNaam": "Dantumadiel",
+      "rentBuy": "Huur",
+      "VHE": "20800023",
+      "energyIndex": null,
+      "zonnepanelen": 1,
+      "gaslozeWoning": 0,
+      "nulOpDeMeterWoning": 0,
+      "availableFromDate": "2025-05-14T00:00:00.000Z",
+      "totalRent": 652.02,
+      "netRent": 640.95,
+      "calculationRent": 640.95,
+      "serviceCosts": 6,
+      "heatingCosts": null,
+      "epv": null,
+      "additionalCosts": 5.07,
+      "eenmaligeKosten": 0,
+      "flexibelHurenActief": 0,
+      "sellingPrice": null,
+      "latitude": 53.2726,
+      "longitude": 5.99869,
+      "reactieUrl": "",
+      "newlyBuild": 0,
+      "areaDwelling": 50,
+      "volumeDwelling": null,
+      "areaPerceel": null,
+      "areaLivingRoom": 17,
+      "areaSleepingRoom": "12 en 11",
+      "lengte": null,
+      "breedte": null,
+      "hoogte": null,
+      "tuin": 1,
+      "storageRoom": 1,
+      "actionLabelFrom": null,
+      "actionLabelUntil": null,
+      "balcony": 0,
+      "constructionYear": "1969",
+      "vatInclusive": 0,
+      "aantalMedebewoners": null,
+      "toewijzingModelTypeInCode": "winkelmodel",
+      "isZelfstandig": null,
+      "verzameladvertentieID": null,
+      "minimumIncome": null,
+      "maximumIncome": null,
+      "minimumHouseholdSize": null,
+      "maximumHouseholdSize": null,
+      "minimumAge": null,
+      "maximumAge": null,
+      "inwonendeKinderenMinimum": null,
+      "inwonendeKinderenMaximum": null,
+      "leeftijdControleVoorBeideAanvrager": 0,
+      "gebruikAangepasteHuurinkomenstabel": 0,
+      "voorrangLeeftijdMin": null,
+      "voorrangLeeftijdMax": null,
+      "voorrangHuishoudgrootteMin": null,
+      "voorrangHuishoudgrootteMax": null,
+      "voorrangGezinnenKinderen": null,
+      "voorrangKernbinding": 0,
+      "voorrangAlleUrgenties": 0,
+      "extraInschrijfduurUitgeschakeld": 0,
+      "relatieHuurInkomenSetId": 2,
+      "toewijzingID": 57662,
+      "numberOfReactions": 110,
+      "toewijzingHeeftAnnuleerReden": 0,
+      "isExtraAanbod": 0,
+      "reagerenZonderInschrijvingMogelijk": "Nee",
+      "huurinkomenstabelGebruiken": 1,
+      "modelHuurinkomenstabelActief": 1,
+      "modelInZoekprofiel": 1,
+      "showEnergyCosts": 0,
+      "woningTypeInZoekprofiel": 1,
+      "publicationDate": "2025-05-19T11:37:00.000Z",
+      "closingDate": "2025-05-22T11:37:00.000Z",
+      "toewijzingIsGeannuleerd": 0,
+      "isWoningruil": 0,
+      "woningruilprofielBijzonderhedenOpWebsiteTonen": null,
+      "regio": null,
+      "land": {
+        "id": 524,
+        "name": "Nederland"
+      },
+      "municipality": {
+        "id": 37,
+        "name": "Dantumadeel"
+      },
+      "city": {
+        "id": 364,
+        "name": "Broeksterwald",
+        "gemeenteId": 37
+      },
+      "neighborhood": null,
+      "quarter": {
+        "id": 523,
+        "name": "Broeksterwâld",
+        "plaatsId": 364
+      },
+      "corporation": {
+        "id": 15,
+        "code": "09",
+        "logo": "/portal/uploads/corporation/pictures/logothuswonenfc.png",
+        "huurtoeslagTonen": 0,
+        "name": "Thús Wonen",
+        "localizedName": "Thús Wonen"
+      },
+      "dwellingType": {
+        "id": 2,
+        "huurprijsDuurActief": 0,
+        "categorie": "woning",
+        "code": "",
+        "name": "Tussenwoning",
+        "localizedName": "Tussenwoning"
+      },
+      "energyLabel": {
+        "id": 2,
+        "icon": "icon_label_b",
+        "localizedNaam": "B"
+      },
+      "heating": {
+        "id": 1,
+        "localizedName": "CV"
+      },
+      "sleepingRoom": {
+        "id": 2,
+        "amountOfRooms": 2,
+        "localizedName": "2 kamers",
+        "naam": "2 kamers"
+      },
+      "kitchen": {
+        "id": 2,
+        "localizedName": "Dichte"
+      },
+      "attic": {
+        "id": 2,
+        "localizedName": "Vaste trap"
+      },
+      "oppervlakteTuin": null,
+      "floor": null,
+      "rentDuration": {
+        "id": 1,
+        "localizedLabel": "m2 per jaar"
+      },
+      "actionLabel": null,
+      "sorteergroep": {
+        "id": 2,
+        "code": "Herstructurering_urgenten"
+      },
+      "huurtoeslagVoorwaarde": null,
+      "gardenSite": null,
+      "balconySite": null,
+      "woningsoort": null,
+      "toewijzingModelCategorie": {
+        "id": 1,
+        "icon": "br_aanbodcooptatie",
+        "toonOpWebsite": 1,
+        "code": "inschrijfduur"
+      },
+      "model": {
+        "id": 11,
+        "code": "aanbodmodel",
+        "advertentieSluitenNaEersteReactie": 0,
+        "einddatumTonen": 1,
+        "aantalReactiesTonen": 1,
+        "slaagkansTonen": 1,
+        "motiverenBijReagerenActief": 0,
+        "motiverenBijReagerenVerplicht": 0,
+        "modelCategorie": {
+          "id": 1,
+          "icon": "br_aanbodcooptatie",
+          "toonOpWebsite": 1,
+          "code": "inschrijfduur"
+        },
+        "isHospiteren": false
+      },
+      "koopvoorwaarden": null,
+      "specifiekeVoorzieningen": [
+        {
+          "id": 41,
+          "inCode": "icon_Zonnepanelen",
+          "dwellingTypeCategory": "woning",
+          "localizedLabel": "Voorzien van zonnepanelen",
+          "localizedName": "Voorzien van zonnepanelen"
+        },
+        {
+          "id": 51,
+          "inCode": "icon_berging",
+          "dwellingTypeCategory": "woning",
+          "localizedLabel": "Berging",
+          "localizedName": "Berging"
+        }
+      ],
+      "doelgroepen": [
+        {
+          "id": 1,
+          "code": "regulier",
+          "icon": "br_doelgroep_regulier",
+          "localizedNaam": "Reguliere woning"
+        }
+      ],
+      "servicecomponentenBinnenServicekosten": [],
+      "servicecomponentenBuitenServicekosten": [],
+      "bestemming": null,
+      "toegankelijkheid": [],
+      "eenmaligeKostenSpecificatie": [],
+      "typeContract": null,
+      "bijzondereDoelgroep": null,
+      "floorplans": [
+        {
+          "label": "",
+          "uri": "/portal/uploads/dwelling/floorplans/55099-682b15d1ec8cc.pdf"
+        }
+      ],
+      "pictures": [
+        {
+          "label": "",
+          "type": "jpg",
+          "uri": "/portal/uploads/dwelling/pictures/55099-682b15d10588d.jpg"
+        }
+      ],
+      "energyCosts": [],
+      "videos": [],
+      "urlKey": "55099-sjoerdbaukesstrjitte-6-broeksterwald",
+      "inschrijvingVereistVoorReageren": true,
+      "isExternModelType": false,
+      "objectType": "object",
+      "sorteringBeleidsregels": [],
+      "reactieBeleidsregels": [],
+      "relatieHuurInkomenRegels": [
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 682.97,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 49669.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 682.96
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 27775
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 27775.01,
+            "max": 49669
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 682.97,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 49669.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 682.96
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 28375
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 1,
+            "max": 1
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 28375.01,
+            "max": 49669
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 682.97,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 54847.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 682.96
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 37350
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 37350.01,
+            "max": 54847
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 682.97,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 54847.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 682.96
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 38500
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 2,
+            "max": 2
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 38500.01,
+            "max": 54847
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 731.94,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 54847.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 731.93
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 37350
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 37350.01,
+            "max": 54847
+          },
+          "aowLeeftijdAlsLeeftijdMin": 1,
+          "aowLeeftijdAlsLeeftijdMax": 0,
+          "leeftijd": {
+            "min": 0,
+            "max": 999
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 731.94,
+            "max": 2250
+          },
+          "inkomen": {
+            "min": 54847.01,
+            "max": 999999
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 731.93
+          },
+          "inkomen": {
+            "min": 0,
+            "max": 38500
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        },
+        {
+          "corporatieId": null,
+          "plaatsId": null,
+          "huishoudGrootte": {
+            "min": 3,
+            "max": 99
+          },
+          "huurprijs": {
+            "min": 0,
+            "max": 900.07
+          },
+          "inkomen": {
+            "min": 38500.01,
+            "max": 54847
+          },
+          "aowLeeftijdAlsLeeftijdMin": 0,
+          "aowLeeftijdAlsLeeftijdMax": 1,
+          "leeftijd": {
+            "min": 18,
+            "max": 0
+          },
+          "inkomenformVerplicht": 0,
+          "inkomenUitzondering": {
+            "min": 0,
+            "max": 0
+          },
+          "inkomensGroepId": 0,
+          "relatieHuurInkomenSetId": 2
+        }
+      ],
+      "huurLigtOpOfOnderHuurtoeslaggrens": true,
+      "huurLigtOpOfOnderKwaliteitskortingsgrens": false,
+      "valtInPostcodereeksVoorrang": false,
+      "reactionData": {
+        "loggedin": false,
+        "aangepasteNettoHuurprijs": 640.95,
+        "aangepasteTotaleHuurprijs": 652.02,
+        "rechtOpHuurprijsverlaging": false,
+        "zoekprofielMatch": false,
+        "isPassend": false,
+        "kanReageren": true,
+        "zoekprofielMatchOrder": 0,
+        "toonAlsVoorrangsgroep": false
+      },
+      "woningruilprofiel": {
+        "bijzonderheden": null
+      },
+      "isHaastrijWoning": false,
+      "actionLabelIfActive": false,
+      "actionLabelIsActive": false,
+      "availableFrom": "",
+      "infoveld": "<p><strong>Broeksterwâld </strong>is een hecht dorp in de gemeente Dantumadiel. In het dorp zelf zijn weinig tot geen voorzieningen. Wel is er een kindcentrum met hierin onder andere een kinderopvang en basisschool. Damwâld ligt op zo’n 3 km afstand. Hier zijn volop voorzieningen aanwezig. </p><p><strong>Toewijzing woning</strong><br />Deze woning wordt toegewezen op basis van je inkomen en de grootte van je huishouden.</p><p><strong>Inkomensgrenzen</strong><br />•    1 persoon: maximaal € 49.669<br />•    2 of meer personen: maximaal € 54.847</p><p><strong>Belangrijk</strong><br />Je moet een recente inkomensverklaring van de Belastingdienst toevoegen aan je inschrijving. Dit geldt voor alle volwassenen, behalve kinderen. Zonder dit document kun je niet reageren.</p><p>We kijken ook naar recente loonstroken of uitkeringsspecificaties. Twijfel je of je inkomen past bij de huur? Neem dan contact met ons op.</p><p>Een gesprek op kantoor is onderdeel van het proces.</p><p>Let op: foto’s en plattegrond kunnen afwijken.<br /> </p>",
+      "infoveldKort": "",
+      "infoveldBewoners": null,
+      "actielabelToelichting": "",
+      "isGepubliceerd": true
+    }
+  ]
+}

@@ -1,34 +1,28 @@
-﻿using HestiaSharp.Interfaces;
+﻿using HestiaSharp.zig365;
 using Newtonsoft.Json.Linq;
+using IAgency = HestiaSharp.Interfaces.IAgency;
 
 namespace HestiaSharp.FrieslandHuurt
 {
-    public class FrieslandHuurtScraper : IScraper
+    public class FrieslandHuurtScraper : Zig365Scraper
     {
-        private static readonly Uri _apiUrl = new
-            ("https://frieslandhuurt-aanbodapi.zig365.nl/api/v1/actueel-aanbod?locale=nl_NL&sort=+availableFromDate");
-
-        private DateTime _lastScrape;
-        private string filterSinceLastScrape = "";
-
-        public FrieslandHuurtScraper(DateTime lastScrape)
+        public FrieslandHuurtScraper(Frieslandhuurt frieslandhuurt, DateTime? lastScrape = null)
         {
-            _lastScrape = lastScrape;
+            Agency = frieslandhuurt;
+            LastScrape = lastScrape ?? DateTime.Today;
         }
 
-        public async Task Scrape()
-        {
-            await Task.Delay(1000);
+        public override IAgency Agency { get; }
 
-            throw new NotImplementedException();
-        }
+        public override Uri ApiUrl { get; } = new
+            ("https://frieslandhuurt-aanbodapi.zig365.nl/api/v1/actueel-aanbod?locale=nl_NL&page=0&sort=+publicationDate");
 
-        public string GetFilter()
+        protected override string GetFilter()
         {
-            var filter = File.ReadAllText("D:\\Development\\HestiaSharp\\HestiaSharp\\zig365\\Filter.json");
+            var filter = File.ReadAllText("/app/FrieslandHuurt/Filter.json");
             var jsonFilter = JObject.Parse(filter);
-            jsonFilter["filters"]!["$and"]![1]!["$or"]![0]!["publicationDate"]!["$gte"]
-                = DateTime.Now.AddHours(-1).ToString("yyyy-MM-ddTHH:00:00.000Z");
+            jsonFilter["filters"]!["$and"]![1]!["$or"]![0]!["publicationDate"]!["$gte"] = LastScrape.ToString
+                ("yyyy-MM-ddTHH:00:00.000Z");
 
             return jsonFilter.ToString();
         }
